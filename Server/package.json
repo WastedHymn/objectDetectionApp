@@ -1,0 +1,25 @@
+{
+  "name": "objectdetectionserver",
+  "version": "1.0.0",
+  "description": "Object detection server for school project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs": "^2.8.2",
+    "axios": "^0.21.1",
+    "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "graceful-fs": "^4.2.4",
+    "image-size": "^0.9.3",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
