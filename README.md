@@ -10,3 +10,10 @@ Uygulama [Expo](https://expo.io) kullanılarak yazıldı. Uygulamadan kamera kul
 ## Sunucu Tarafı
 Sunucu Node.js ile yazıldı ve Amazon AWS'te Ubuntu Server üzerinde çalıştırıldı.
 ###### Sunucuda Kullanılan Paketler
+- tensorflow
+- coco-ssd
+- express
+- canvas
+- graceful-fs
+- multer
+- image-size
